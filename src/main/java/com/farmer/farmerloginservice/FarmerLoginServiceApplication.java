@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import brave.sampler.Sampler;
 
 @EnableEurekaDiscovery
-@EnableConfigServer                               
+                              
 @EnableSwagger2
 @EnableCircuitBreaker
 @EnableHystrixDashboard
